@@ -539,7 +539,7 @@ const topics = await agent.getAllTopics();
 console.log("Allora topics:", topics);
 ```
 
-### Get an inference for an specific topic from Allora
+### Get an inference for a specific topic from Allora
 
 ```typescript
 const inference = await agent.getInferenceByTopicId(42);
